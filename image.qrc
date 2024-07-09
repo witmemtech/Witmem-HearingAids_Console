@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/qss/CustomStyle.qss</file>
+        <file>Resource/icon/logoNew.png</file>
+        <file>Resource/qss/LineEditPasswordStyle.qss</file>
+        <file>Resource/icon/password_hide.png</file>
+        <file>Resource/icon/password_show.png</file>
+        <file>Resource/icon/logo.png</file>
+        <file>Resource/icon/Tone.jpg</file>
+    </qresource>
+</RCC>

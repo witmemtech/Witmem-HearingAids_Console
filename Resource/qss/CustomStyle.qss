@@ -1,0 +1,82 @@
+QWidget{
+font-size:12px;
+}
+QTabWidget::pane{
+border-top: 2px solid rgba(99,99,99,0.1);
+
+border-bottom: none;
+border-left: none;
+border-right: none;
+top: -2px;
+}
+
+QPushButton{
+max-height:24px;
+}
+QRadioButton{
+max-height:24px;
+}
+
+QLineEdit{
+max-height::24px;
+}
+QLabel{
+max-height::22px;
+}
+QPushButton#importBtn{
+background-color:#3790FA;
+border-radius: 6px;
+color:#FFFFFF;
+width:90px;
+height:30px;
+}
+
+QPushButton#importBtn:hover{
+background-color:#3D6BE5;
+border-radius: 6px;
+color:#FFFFFF;
+}
+QPushButton#importBtn:pressed{
+background-color:#0078d7;
+border-radius: 6px;
+color:#FFFFFF;
+}
+
+QPushButton#grayBtn{
+background-color:#E6E6E6;
+border-radius: 6px;
+width:90px;
+height:30px;
+}
+
+QPushButton#grayBtn:hover{
+background-color:#DADADA;
+border-radius: 6px;
+}
+QPushButton#grayBtn:pressed{
+background-color:#B8B8B8;
+border-radius: 6px;
+}
+
+QLineEdit#customEdit{
+min-height:25px;
+}
+
+QProgressBar{
+border-radius:6px;
+height:15px;
+text-align:center;
+border:1px solid #E8EDF2;
+background-color: rgb(255, 255, 255);
+border-color: rgb(180, 180, 180);
+}
+QProgressBar:chunk{
+border-radius:6px;
+background-color:#3790FA;
+}
+
+QWidget#ModelFrame{
+border-radius:6px;
+border:1px solid rgba(200, 200, 200);
+}
+
